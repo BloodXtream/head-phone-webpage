@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f3ea;
+   font-family: 'Preahvihear', sans-serif;
+}
+.scroll-container{
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    overflow-y: scroll; /* This property adds a vertical scrollbar when content overflows */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #9128bb;
+    padding: 4px 4px;
+    font-family: 'Preahvihear', sans-serif;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: fit-content;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(252, 249, 249);
+    color: black;
+    /* border: 2px solid black; */
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.LOGO{
+    font-weight: 700;
+    font-size: 30px;
+}
+.LOGO{
+    padding-left: 50px;
+}
+nav ul{
+    display: flex;
+    column-gap: 10rem;
+    align-items: center;
+    padding-right: 50px;
+    font-weight: 600;
+}
+.nav-item :hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+section{
+    display: flex;
+    /* align-items:center; */
+    /* justify-content: center; */
+}
+.left-hero-section{
+  padding-top:27%;
+      padding-left: 175px;
+}
+.left-hero-section h1{
+    font-size: 50px;   
+}
+
+.right-hero-section{
+    margin-bottom:8%;
+    padding-left: 175px;
+}
+.images{
+    padding-left: 7px;
+}
+
+
+
